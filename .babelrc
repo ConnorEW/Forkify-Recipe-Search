@@ -1,0 +1,13 @@
+{
+    "presets": [
+        ["@babel/env",{
+            "targets": {
+                "browsers":[
+                    "last 5 versions",
+                    //babel automatically figures out the last five versions
+                    "ie >= 8"
+                ]
+            }
+        }]
+    ]
+}
